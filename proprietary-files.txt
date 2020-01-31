@@ -203,13 +203,11 @@ vendor/lib64/libcpion.so
 vendor/lib64/libfpfactory-impl.so
 vendor/lib64/libhdcpsrm.so
 vendor/lib64/liblgftmitem_vendor.so
-vendor/lib64/libpvr.so
 vendor/lib64/librmp.so
 vendor/lib/libcpion.so
 vendor/lib/liblgftmitem_vendor.so
 vendor/lib/libatd_modeminterface.so
 vendor/lib/libunified_sysfs_vendor.so
-vendor/lib/libpvr.so
 vendor/lib/librmp.so
 vendor/lib/liblgehdcpek.so
 vendor/lib64/libunified_sysfs_vendor.so
@@ -227,14 +225,12 @@ system_ext/lib/libsdm-disp-apis.qti.so
 system_ext/lib64/libsdm-disp-apis.qti.so
 vendor/bin/qdcmss
 vendor/etc/init/qdcmss.rc
-vendor/lib/hw/hwcomposer.sdm845.so
 vendor/lib/libdisplayqos.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libsdedrm.so
 vendor/lib/libsdm-disp-vndapis.so
 vendor/lib/libsdmcore.so
 vendor/lib/libsdmextension.so
-vendor/lib64/hw/hwcomposer.sdm845.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libhdmipassthru.so
 vendor/lib64/libsdedrm.so
@@ -246,18 +242,18 @@ vendor/lib64/unnhal-acc-common.so
 vendor/lib64/unnhal-acc-hvx.so
 vendor/lib64/vendor.lge.hardware.property@2.0.so
 
-# Display (HDR)
-vendor/lib64/libhdr_tm.so
+# Display (HDR) - from OnePlus6 - RKQ1.201217.002
+vendor/lib64/libhdr_tm.so|5267cb8b791aecd6ef8ff64c5206935c5c6f1add
 
-# Display (SDM)
-vendor/lib64/libdisplayqos.so
-vendor/lib64/libqseed3.so
-vendor/lib64/libsdedrm.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-diag.so
-vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libtinyxml2_1.so
+# Display (SDM) - from OnePlus6 - RKQ1.201217.002
+vendor/lib64/libdisplayqos.so|887345d6007b689c18e6bc388ba50ffffa3d4f64
+vendor/lib64/libqseed3.so|3047207f4317d7fc81249d3b34bd42e442a5f7bd
+vendor/lib64/libsdedrm.so|8750086e98e45b04573ce22f0066c5a921d8f674
+vendor/lib64/libsdm-color.so|3026565065b37bcfd1342c82d77bae579ea6ec08
+vendor/lib64/libsdm-diag.so|e964539c6d07a8abbdfcc98f9b27878d3a09185b
+vendor/lib64/libsdm-disp-vndapis.so|68f9171c08a2ba9654aaa3a1d9b0c050ae07bd97
+vendor/lib64/libsdmextension.so|f8e4112d1759eef3d07d92db2fcb3a9c9ccac0f4
+vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
 # DPM
 -system/framework/tcmclient.jar
@@ -357,43 +353,45 @@ vendor/firmware/a630_zap.elf
 vendor/firmware/a630_zap.mdt
 vendor/firmware/a640_gmu.bin
 
-# Graphics (Adreno)
-vendor/lib/egl/eglSubDriverAndroid.so
-vendor/lib/egl/libEGL_adreno.so
-vendor/lib/egl/libGLESv1_CM_adreno.so
-vendor/lib/egl/libGLESv2_adreno.so
-vendor/lib/egl/libq3dtools_adreno.so
-vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/libadreno_utils.so
-vendor/lib/libC2D2.so
-vendor/lib/libc2d30_bltlib.so
-vendor/lib/libCB.so
-vendor/lib/libgpudataproducer.so
-vendor/lib/libgsl.so
-vendor/lib/libllvm-glnext.so
-vendor/lib/libllvm-qcom.so
-vendor/lib/libOpenCL.so
-vendor/lib/libVkLayer_q3dtools.so
-vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libEGL_adreno.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so
-vendor/lib64/egl/libq3dtools_adreno.so
-vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/libadreno_utils.so
-vendor/lib64/libC2D2.so
-vendor/lib64/libc2d30_bltlib.so
-vendor/lib64/libCB.so
-vendor/lib64/libgpudataproducer.so
-vendor/lib64/libgsl.so
-vendor/lib64/libllvm-glnext.so
-vendor/lib64/libllvm-qcom.so
-vendor/lib64/libOpenCL.so
-vendor/lib64/libVkLayer_q3dtools.so
+# Graphics (Adreno) - from OnePlus6 - RKQ1.201217.002
+vendor/lib/egl/eglSubDriverAndroid.so|de8684b7f60397dde4f7b334074e64fc22bfe529
+vendor/lib/egl/libEGL_adreno.so|e73369c2ec0751d6912518de205106d4ee19291c
+vendor/lib/egl/libGLESv1_CM_adreno.so|715f3463528f1e74ffa02627ee5916a09e0748f5
+vendor/lib/egl/libGLESv2_adreno.so|7b8938799891f7157ee2766b4df64ce3ed7c51be
+vendor/lib/egl/libq3dtools_adreno.so|9ec9c053592e58be935e8ae5e0a9d362c101773a
+vendor/lib/egl/libq3dtools_esx.so|e252bb4aadbe7b63bb23a989ba86a52120ee08df
+vendor/lib/libC2D2.so|91f015cad79024fdbb6a5603cce48693e58a4510
+vendor/lib/libCB.so|19956e96dff0bec886dddadc3bacca6af4f05de3
+vendor/lib/libOpenCL.so|6bf59a4c37d3c744448380408f238b87b481b7b5
+vendor/lib/libVkLayer_q3dtools.so|2dd75462f765721500a052df41ebde3b83daa273
+vendor/lib/libadreno_utils.so|d0814b59588c480c5f0fd6e7b6ae2643fd6cfd4b
+vendor/lib/libc2d30_bltlib.so|71703a543760e40ba26cde07c2d41416cc9331ec
+vendor/lib/libgpudataproducer.so|acff5b2159870f923d737dd079421ffcf21394cf
+vendor/lib/libgsl.so|ab3b8e1fab236d367b99e3c8501955306bb38590
+vendor/lib/libllvm-glnext.so|99387e26bf8247f31393cf08bd2f36087c56f7bf
+vendor/lib/libllvm-qcom.so|80b415741f1ac890cff1a4756b1c1fe84edc5747
+vendor/lib/libpvr.so|f04cd2c684036e1e91edc40a039010a295a1a226
+vendor/lib64/egl/eglSubDriverAndroid.so|d6dc70f08a0e68e897c2c8a956a8c2f3e036c540
+vendor/lib64/egl/libEGL_adreno.so|5d517d4b294073bf2773b8223a59c3b4827fd26c
+vendor/lib64/egl/libGLESv1_CM_adreno.so|0a2a648ca2dcd887ea62860bbfa2ef397f01d42d
+vendor/lib64/egl/libGLESv2_adreno.so|87220fac6b1bf29c9bf96db7c0feea12d84a5dd7
+vendor/lib64/egl/libq3dtools_adreno.so|189b9c3d400c6a98c87582b8df0910530cba6d44
+vendor/lib64/egl/libq3dtools_esx.so|a0dfa1422f15d9ce5b43640bed8a6cbfe6d5d826
+vendor/lib64/libC2D2.so|175115cc36fd471f9eb83af76be21b5f602b9460
+vendor/lib64/libCB.so|60f84362c2c448348936b8ac6841ae232d7e3897
+vendor/lib64/libOpenCL.so|ee804e05a12dffd74f98a426d00039a8cfcb5662
+vendor/lib64/libVkLayer_q3dtools.so|c033fcad480af13afe4631ed507a8159c33b74a1
+vendor/lib64/libadreno_utils.so|c2851b9968f5dfa2329560768c0fc25f5e82ce51
+vendor/lib64/libc2d30_bltlib.so|b7c7bbc41f317833927d9bf75fbf9b411dd63a96
+vendor/lib64/libgpudataproducer.so|acdc43a83726952602d18591887f704f3be1d809
+vendor/lib64/libgsl.so|79710361c9f1d7165f6a3e92afef51cc686e9fbe
+vendor/lib64/libllvm-glnext.so|8bee61f16e02a24d912c7d348a1b5ae34b76cf34
+vendor/lib64/libllvm-qcom.so|79164daddbfb3c9c7b31933d7dfe144ddf2c858d
+vendor/lib64/libpvr.so|e37f4cb177948f4b510252f44cf615fe966e1b42
 
-# Graphics (Vulkan)
-vendor/lib/hw/vulkan.adreno.so
-vendor/lib64/hw/vulkan.adreno.so
+# Graphics (Vulkan) - from OnePlus6 - RKQ1.201217.002
+vendor/lib/hw/vulkan.adreno.so|efe7bb8a06ccb282b250e79aad8a4c5df1b1a611
+vendor/lib64/hw/vulkan.adreno.so|8c588478757fbc3384989303f7a95c437adf7d95
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
@@ -599,18 +597,28 @@ vendor/lib/libperipheral_client.so
 vendor/lib64/libspcom.so
 vendor/lib64/libperipheral_client.so
 
-# Postprocessing
-vendor/bin/hw/vendor.display.color@1.0-service
-vendor/bin/ppd
-vendor/etc/init/vendor.display.color@1.0-service.rc
-vendor/lib64/libdisp-aba.so
-vendor/lib64/vendor.display.color@1.0.so
-vendor/lib64/vendor.display.color@1.1.so
-vendor/lib64/vendor.display.color@1.2.so
-vendor/lib64/vendor.display.color@1.3.so
-vendor/lib64/vendor.display.color@1.4.so
-vendor/lib64/vendor.display.color@1.5.so
-vendor/lib64/vendor.display.postproc@1.0.so
+# Postprocessing - from OnePlus6 - RKQ1.201217.002
+vendor/bin/hw/vendor.display.color@1.0-service|f953144ced6869e640ca67930cea6d63e38f0a0d
+vendor/bin/mm-pp-dpps|0445e221a376694bd2a24f65ae7dceb32173228f
+vendor/bin/ppd|8b60669c32f091dd5832579892c91dc3eb0e8130
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib/libdisp-aba.so|82d7a6706392f687abb77df6205e39224a5c5141
+vendor/lib/libdisplayqos.so|682f8ac9e13240bb57e3b15edd2d3edb4f4f67ce
+vendor/lib/vendor.display.color@1.0.so|640ab2b9c2f0077634ed74263c5558076d431203
+vendor/lib/vendor.display.color@1.1.so|732531bbea59f5c1a90f409350d290607189c47f
+vendor/lib/vendor.display.color@1.2.so|f1ea074c629f1fc27000efb44617f7e8386b12d4
+vendor/lib/vendor.display.color@1.3.so|1467fbb9cbbb331da846fd2bcc3e644b55723bd5
+vendor/lib/vendor.display.color@1.4.so|3b7f6a489f66b2cc8b3e5a467b9fe3f95a59c775
+vendor/lib/vendor.display.color@1.5.so|e97e31b9567f9a6f9031063d2356e7391ba719e3
+vendor/lib/vendor.display.postproc@1.0.so|251c33b11743f5e24ca220b220da367996f3077b
+vendor/lib64/libdisp-aba.so|96126e40caaef8e32ab3498faf1e320754478103
+vendor/lib64/vendor.display.color@1.0.so|253cd210899ea79133c7b7b9d31429e4a8d43c32
+vendor/lib64/vendor.display.color@1.1.so|fe9b373785571bb890db27523b804dc7d4411bca
+vendor/lib64/vendor.display.color@1.2.so|f40eb8c9d39776c43448431d7c7f7ecc3e4506c3
+vendor/lib64/vendor.display.color@1.3.so|3fbe0a8a317789608848f35b39ed9bfb734f9ecc
+vendor/lib64/vendor.display.color@1.4.so|1396673668977af0a8afeaa64f891c3b356f958d
+vendor/lib64/vendor.display.color@1.5.so|f1c12eb133698917385d48913358eaffd9a10879
+vendor/lib64/vendor.display.postproc@1.0.so|e56b66d744dd77bd87afbb30cab558acf15709fb
 
 # QDUtils
 system_ext/lib/vendor.qti.hardware.qdutils_disp@1.0.so
