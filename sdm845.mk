@@ -485,7 +485,8 @@ PRODUCT_PACKAGES += \
     vendor.lge.power.chglogo.rc \
     vendor.lge.power.rc \
     init.lge.svelte.rc \
-    ueventd.rc
+    ueventd.rc \
+    fstab.qcom
 
 # RCS
 PRODUCT_PACKAGES += \
