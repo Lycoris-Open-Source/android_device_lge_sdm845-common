@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# Inherit proprietary blobs
-$(call inherit-product-if-exists, vendor/lge/sdm845-common/sdm845-common-vendor.mk)
-
 # Common device tree path
 COMMON_PATH := device/lge/sdm845-common
 
@@ -493,3 +490,6 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/wifi/wifi_concurrency_cfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wifi_concurrency_cfg.txt \
     $(COMMON_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(COMMON_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
+
+# Inherit proprietary blobs
+$(call inherit-product-if-exists, vendor/lge/sdm845-common/sdm845-common-vendor.mk)
